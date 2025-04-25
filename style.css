@@ -381,3 +381,25 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+
+.welcome_message {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .welcome_message h1 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 601px) {
+    .welcome_message h1 {
+        font-size: 36px;
+    }
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}

@@ -2,8 +2,8 @@
 async function loadQuestions() {
     const today = new Date();
     const dateString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
-    //const dateString = "2025-04-21"; // Change this to a date that has a corresponding questions file
-    const filePath = `../data/Sc/Y9_Math_Pt1_${dateString}.js`; // Adjust the path as necessary
+    //const dateString = "2025-04-28"; // Change this to a date that has a corresponding questions file
+    const filePath = `../data/Sc/Y9_Sc_Pt3_${dateString}.js`; // Adjust the path as necessary
 
     try {
         const module = await import(filePath);
