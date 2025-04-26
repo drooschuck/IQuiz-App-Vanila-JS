@@ -27,8 +27,7 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 90%; /* Use percentage width for responsiveness */
-    max-width: 540px; /* Set a max-width to prevent it from getting too wide */
+   
 }
 
 .info_box.activeInfo,
