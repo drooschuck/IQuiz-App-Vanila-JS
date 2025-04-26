@@ -27,6 +27,8 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%; /* Use percentage width for responsiveness */
+    max-width: 540px; /* Set a max-width to prevent it from getting too wide */
 }
 
 .info_box.activeInfo,
@@ -51,7 +53,6 @@ body {
 }
 
 .info_box {
-    width: 540px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -110,7 +111,6 @@ body {
 }
 
 .quiz_box {
-    width: 550px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -139,7 +139,7 @@ body {
 
 .quiz_box header .timer {
     color: #004085;
-    background: #cce5ff;
+ background: #cce5ff;
     border: 1px solid #b8daff;
     height: 45px;
     padding: 0 8px;
@@ -314,7 +314,8 @@ footer button.show {
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+    width: 90%; /* Use percentage width for responsiveness */
+    max-width : 450px; /* Set a max-width to prevent it from getting too wide */
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -339,7 +340,7 @@ footer button.show {
     display: flex;
     margin: 10px 0;
     font-size: 18px;
-    font -weight: 500;
+    font-weight: 500;
 }
 
 .result_box .score_text span p {
