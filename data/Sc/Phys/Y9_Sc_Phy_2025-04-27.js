@@ -1,3 +1,10 @@
+// Example subject information
+const subjectInfo = {
+    subject: "Physics",
+    grade: "Year 9",
+    description: "This quiz covers basic concepts in Physics."
+};
+
 let questions = [
     {
         numb: 1,
@@ -154,5 +161,25 @@ let questions = [
         ]
     }
 ];
+
+// Function to insert subject info before the quiz questions
+function insertSubjectInfo(questionsArray, subjectInfo) {
+    // Create a subject info object to insert
+    const subjectInfoObject = {
+        numb: 0, // You can set this to 0 or any other value to indicate it's subject info
+        question: `${subjectInfo.subject} Quiz - ${subjectInfo.grade}`,
+        answer: "", // No answer for subject info
+        options: [subjectInfo.description] // Description as an option
+    };
+
+    // Prepend the subject info to the questions array
+    questionsArray.unshift(subjectInfoObject);
+}
+
+// Insert the subject info into the questions array
+insertSubjectInfo(questions, subjectInfo);
+
+// Example of how to use the updated questions array
+console.log(questions);
 
 export { questions };

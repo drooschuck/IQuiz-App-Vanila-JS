@@ -1,9 +1,20 @@
-// Function to dynamically import questions based on the current date
-async function loadQuestions() {
-    const today = new Date();
-    const dateString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
-    //const dateString = "2025-04-28"; // Change this to a date that has a corresponding questions file
-    const filePath = `../data/Sc/Y9_Sc_Pt3_${dateString}.js`; // Adjust the path as necessary
+// Function to dynamically import questions based on a given date or the current date if none is provided
+async function loadQuestions(dateString, folderPath) {
+    // If no date is provided, use the current date
+    if (!dateString) {
+        const today = new Date();
+        dateString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
+    }
+
+    // Validate the date format (YYYY-MM-DD)
+    const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+    if (!datePattern.test(dateString)) {
+        console.error("Invalid date format. Please use 'YYYY-MM-DD'.");
+        return []; // Return an empty array for invalid date
+    }
+
+    // Construct the file path
+    const filePath = `${folderPath}/Y9_Sc_Phy_${dateString}.js`;
 
     try {
         const module = await import(filePath);
@@ -15,9 +26,23 @@ async function loadQuestions() {
     }
 }
 
+// Example usage
+const folder = '../data/Sc/Phys'; // Specify the folder path
+
+// Load questions for the current date
+loadQuestions(null, folder).then(questions => {
+   console.log("Questions for today:", questions); // Handle the loaded questions
+});
+
+// Load questions for a specific date
+const dateToLoad = '2025-04-26'; // Specify the date to load questions for
+loadQuestions(dateToLoad, folder).then(questions => {
+    console.log(`Questions for ${dateToLoad}:`, questions); // Handle the loaded questions
+});
+
 // Load questions when the script runs
 let quizQuestions = []; // Renamed from questions to quizQuestions
-loadQuestions().then(loadedQuestions => {
+loadQuestions(null, folder).then(loadedQuestions => {
     quizQuestions = loadedQuestions; // Use the renamed variable
     initializeQuiz();
 });
