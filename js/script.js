@@ -12,41 +12,59 @@ async function loadQuestions(dateString) {
         const today = new Date();
         dateString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
     }
-    const filePath = `../data/Sc/Phys/Y9_Sc_Phy_${dateString}.js`; // Adjust the path as necessary
 
-    try {
-        const module = await import(filePath);
-        quizSubject = module.quizSubject || "KS3"; // Get quizSubject from module or default
-        return module.questions || []; // Return questions array or empty
-    } catch (error) {
-        console.error(`Error loading questions from ${filePath}:`, error);
-        quizSubject = "KS3"; // Default subject on error
-        return []; // Return empty array on error
+    // Array of directory paths to check
+    const directories = [
+        `../data/Sc/Phys/Y9_Sc_Phy_${dateString}.js`,
+        `../data/Sc/Chem/Y9_Sc_Chem_${dateString}.js`,
+        `../data/Sc/Biol/Y9_Sc_biol_${dateString}.js`
+        // Add more directories as needed
+    ];
+
+    let allQuestions = [];
+    let localQuizSubject = "KS3"; // Default subject
+
+    for (const filePath of directories) {
+        try {
+            const module = await import(filePath);
+            localQuizSubject = module.quizSubject || localQuizSubject; // Update quizSubject if available
+            allQuestions = allQuestions.concat(module.questions || []); // Collect questions
+        } catch (error) {
+            console.error(`Error loading questions from ${filePath}:`, error);
+            // Continue to the next directory on error
+        }
     }
+
+    return {
+        questions: allQuestions,
+        quizSubject: localQuizSubject
+    };
 }
 
 /* Load questions for specific Date */
-loadQuestions("2025-05-00").then(loadedQuestions => {
-    quizQuestions = loadedQuestions;
-    setSubject();
+loadQuestions("2025-05-00").then(({ questions, quizSubject: loadedSubject }) => {
+    quizQuestions = questions;
+    quizSubject = loadedSubject; // Assign to global quizSubject
+    setSubject(); // Set the subject after loading
     initializeQuiz();
-    });
+});
 
 /* Load questions for the current Date  */
 let quizQuestions = [];
-loadQuestions().then(loadedQuestions => {
-    quizQuestions = loadedQuestions;
+loadQuestions().then(({ questions, quizSubject: loadedSubject }) => {
+    quizQuestions = questions;
+    quizSubject = loadedSubject; // Assign to global quizSubject
     setSubject(); // Set the subject after loading
     initializeQuiz();
 });
 
 /* Rest of the code remains unchanged */
-let  start_btn = document.querySelector(".start_btn button");
-let  info_box = document.querySelector(".info_box");
-let  exit_btn = info_box.querySelector(".buttons .quit");
-let  continue_btn = info_box.querySelector(".buttons .restart");
-let  quiz_box = document.querySelector(".quiz_box");
-let  result_box = document.querySelector(".result_box");
+let start_btn = document.querySelector(".start_btn button");
+let info_box = document.querySelector(".info_box");
+let exit_btn = info_box.querySelector(".buttons .quit");
+let continue_btn = info_box.querySelector(".buttons .restart");
+let quiz_box = document.querySelector(".quiz_box");
+let result_box = document.querySelector(".result_box");
 let option_list; // Declare option_list in a broader scope
 let bottom_ques_counter; // Declare bottom_ques_counter in a broader scope
 let next_btn; // Declare next_btn in a broader scope
@@ -64,7 +82,7 @@ function initializeQuiz() {
     result_box = document.querySelector(".result_box");
     option_list = document.querySelector(".option_list"); // Initialize option_list here
     bottom_ques_counter = document.querySelector("footer .total_que"); // Initialize bottom_ques_counter here
-    next_btn = document.querySelector("footer .next_btn");// Initialize  next_btn  here
+    next_btn = document.querySelector("footer .next_btn"); // Initialize next_btn here
     time_line = document.querySelector("header .time_line");
     timeText = document.querySelector(".timer .time_left_txt");
     timeCount = document.querySelector(".timer .timer_sec");
@@ -148,7 +166,6 @@ function resetQuiz() {
     next_btn.classList.remove("show"); // Hide the next button
 }
 
-
 // Getting questions and options from array
 function showQuestions(index) {
     const que_text = document.querySelector(".que_text");
@@ -199,7 +216,7 @@ function optionSelected(answer) {
         }
     }
     for (let i = 0; i < allOptions; i++) {
-        option_list.children[i].classList.add("disabled"); // Once user select an option then disable all options
+        option_list.children[i].classList.add("disabled"); // Once user selects an option then disable all options
     }
     next_btn.classList.add("show"); // Show the next button if user selected any option
 }
@@ -243,7 +260,7 @@ function startTimer(time) {
                 }
             }
             for (let i = 0; i < allOptions; i++) {
-                option_list.children[i].classList.add("disabled"); // Once user select an option then disable all options
+                option_list.children[i].classList.add("disabled"); // Once user selects an option then disable all options
             }
             next_btn.classList.add("show"); // Show the next button if user selected any option
         }
