@@ -1,3 +1,4 @@
+export const quizSubject = "Phy3 - Circuits";
 let questions = [
   {
     numb: 1,

@@ -1,112 +1,114 @@
+export const quizSubject = "Bio3 - Commun diseases";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "What are pathogens?",
+        answer: "Microorganisms that cause disease.",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "Microorganisms that cause disease.",
+            "Healthy cells in the body.",
+            "Nutrients needed for health.",
+            "The body's defense mechanisms."
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "How do pathogens cause disease?",
+        answer: "By damaging host cells and producing toxins.",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "By providing nutrients to the host.",
+            "By damaging host cells and producing toxins.",
+            "By enhancing immune response.",
+            "By increasing cell growth."
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "How are pathogens spread?",
+        answer: "Through direct contact, air, water, and vectors.",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "Only through direct contact.",
+            "Through direct contact, air, water, and vectors.",
+            "Only through contaminated food.",
+            "Only through insect bites."
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "What is one way to prevent the spread of disease?",
+        answer: "Vaccination.",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "Ignoring symptoms.",
+            "Vaccination.",
+            "Eating unhealthy food.",
+            "Avoiding exercise."
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "What was Louis Pasteur known for?",
+        answer: "Developing the germ theory of disease.",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "Discovering antibiotics.",
+            "Developing the germ theory of disease.",
+            "Creating vaccines for all diseases.",
+            "Studying plant biology."
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "How can vectors be controlled?",
+        answer: "By reducing their habitats and using insecticides.",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "By ignoring them.",
+            "By reducing their habitats and using insecticides.",
+            "By feeding them.",
+            "By increasing their population."
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "What is an example of a disease caused by a virus?",
+        answer: "Influenza.",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "Influenza.",
+            "Tuberculosis.",
+            "Athlete's foot.",
+            "Malaria."
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "How do viruses infect cells?",
+        answer: "By attaching to the cell and injecting their genetic material.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "By consuming the cell.",
+            "By attaching to the cell and injecting their genetic material.",
+            "By releasing toxins.",
+            "By dividing inside the cell."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "What are some symptoms of viral diseases?",
+        answer: "Fever, fatigue, and muscle aches.",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "Fever, fatigue, and muscle aches.",
+            "Rashes and swelling.",
+            "Nausea and vomiting.",
+            "Weight gain."
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "What is the primary line of defense against pathogens?",
+        answer: "The skin and mucous membranes.",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "The skin and mucous membranes.",
+            "White blood cells.",
+            "Antibodies.",
+            "Vaccines."
         ]
     }
 ];

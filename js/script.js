@@ -1,52 +1,46 @@
-// Function to dynamically import questions based on a given date or the current date if none is provided
-async function loadQuestions(dateString, folderPath) {
-    // If no date is provided, use the current date
+/* Function to set the subject in the quiz header */
+let quizSubject = ""; // Initialize quizSubject variable
+
+function setSubject() {
+    const subjectElem = document.querySelector('.subject');
+    subjectElem.textContent = 'Sub: ' + quizSubject; // Use the quiz subject
+}
+
+/* Function to dynamically import questions and subject based on a specific or current date */
+async function loadQuestions(dateString) {
     if (!dateString) {
         const today = new Date();
         dateString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
     }
-
-    // Validate the date format (YYYY-MM-DD)
-    const datePattern = /^\d{4}-\d{2}-\d{2}$/;
-    if (!datePattern.test(dateString)) {
-        console.error("Invalid date format. Please use 'YYYY-MM-DD'.");
-        return []; // Return an empty array for invalid date
-    }
-
-    // Construct the file path
-    const filePath = `${folderPath}/Y9_Sc_Phy_${dateString}.js`;
+    const filePath = `../data/Sc/Phys/Y9_Sc_Phy_${dateString}.js`; // Adjust the path as necessary
 
     try {
         const module = await import(filePath);
-        return module.questions; // Assuming the questions are exported as 'questions'
+        quizSubject = module.quizSubject || "KS3"; // Get quizSubject from module or default
+        return module.questions || []; // Return questions array or empty
     } catch (error) {
         console.error(`Error loading questions from ${filePath}:`, error);
-        // Fallback to a default set of questions or handle the error as needed
-        return []; // Return an empty array or a default set of questions
+        quizSubject = "KS3"; // Default subject on error
+        return []; // Return empty array on error
     }
 }
 
-// Example usage
-const folder = '../data/Sc/Phys'; // Specify the folder path
+/* Load questions for specific Date */
+loadQuestions("2025-05-00").then(loadedQuestions => {
+    quizQuestions = loadedQuestions;
+    setSubject();
+    initializeQuiz();
+    });
 
-// Load questions for the current date
-loadQuestions(null, folder).then(questions => {
-   console.log("Questions for today:", questions); // Handle the loaded questions
-});
-
-// Load questions for a specific date
-const dateToLoad = '2025-04-26'; // Specify the date to load questions for
-loadQuestions(dateToLoad, folder).then(questions => {
-    console.log(`Questions for ${dateToLoad}:`, questions); // Handle the loaded questions
-});
-
-// Load questions when the script runs
-let quizQuestions = []; // Renamed from questions to quizQuestions
-loadQuestions(null, folder).then(loadedQuestions => {
-    quizQuestions = loadedQuestions; // Use the renamed variable
+/* Load questions for the current Date  */
+let quizQuestions = [];
+loadQuestions().then(loadedQuestions => {
+    quizQuestions = loadedQuestions;
+    setSubject(); // Set the subject after loading
     initializeQuiz();
 });
 
+/* Rest of the code remains unchanged */
 let  start_btn = document.querySelector(".start_btn button");
 let  info_box = document.querySelector(".info_box");
 let  exit_btn = info_box.querySelector(".buttons .quit");
@@ -153,6 +147,7 @@ function resetQuiz() {
     timeText.textContent = "Time Left"; // Change the text of timeText to Time Left
     next_btn.classList.remove("show"); // Hide the next button
 }
+
 
 // Getting questions and options from array
 function showQuestions(index) {

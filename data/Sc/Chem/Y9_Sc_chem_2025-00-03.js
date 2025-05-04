@@ -1,112 +1,114 @@
+export const quizSubject = "Chem3 - New Tech ";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "What are nanoparticles?",
+        answer: "Particles that are between 1 and 100 nanometers in size.",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "Particles that are larger than 100 micrometers.",
+            "Particles that are between 1 and 100 nanometers in size.",
+            "Particles that are visible to the naked eye.",
+            "Particles that are only found in gases."
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "Which of the following is a property of nanoparticles?",
+        answer: "High surface area to volume ratio.",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "Low reactivity.",
+            "High surface area to volume ratio.",
+            "High density.",
+            "Large size."
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "How do the properties of nanoparticles make them suitable for drug delivery?",
+        answer: "They can easily penetrate cells due to their small size.",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "They are too large to enter cells.",
+            "They can easily penetrate cells due to their small size.",
+            "They are highly reactive.",
+            "They are only effective in solid form."
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "What gases are produced during combustion reactions in car engines?",
+        answer: "Carbon dioxide, water vapor, and nitrogen oxides.",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "Oxygen and hydrogen.",
+            "Carbon dioxide, water vapor, and nitrogen oxides.",
+            "Methane and sulfur dioxide.",
+            "Only carbon monoxide."
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "What is one advantage of using cars?",
+        answer: "Convenience and flexibility of travel.",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "They are environmentally friendly.",
+            "Convenience and flexibility of travel.",
+            "They are always cheaper than public transport.",
+            "They require no maintenance."
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "What are greenhouse gases?",
+        answer: "Gases that trap heat in the atmosphere.",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "Gases that cool the atmosphere.",
+            "Gases that trap heat in the atmosphere.",
+            "Gases that are only produced by plants.",
+            "Gases that are harmless to the environment."
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "What is the greenhouse effect?",
+        answer: "The warming of the Earth's surface due to trapped heat.",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "The cooling of the Earth's surface.",
+            "The warming of the Earth's surface due to trapped heat.",
+            "The increase in ozone layer thickness.",
+            "The reduction of carbon dioxide levels."
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "What is one impact of greenhouse gas emissions?",
+        answer: "Increased global temperatures.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "Decreased ocean levels.",
+            "Increased global temperatures.",
+            "Improved air quality.",
+            "Reduced biodiversity."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "What is one piece of evidence for global warming?",
+        answer: "Rising sea levels.",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "Increased snowfall in polar regions.",
+            "Rising sea levels.",
+            "Decreased temperatures in the tropics.",
+            "More frequent snowstorms."
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "What is one advantage of hydrogen fuel cells?",
+        answer: "They produce only water as a byproduct.",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "They are very cheap to produce.",
+            "They produce only water as a byproduct.",
+            "They require fossil fuels to operate.",
+            "They are less efficient than batteries."
         ]
     }
 ];

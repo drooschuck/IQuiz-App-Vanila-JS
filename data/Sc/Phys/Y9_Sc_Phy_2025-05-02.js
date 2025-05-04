@@ -1,3 +1,5 @@
+export const quizSubject = "Phy2 - Energy Resources";
+
 let questions = [
     {
         numb: 1,

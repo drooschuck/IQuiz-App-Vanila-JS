@@ -1,112 +1,114 @@
+export const quizSubject = "Chem2 - Materials";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "What are ceramics primarily made from?",
+        answer: "Clay and other inorganic materials",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "Plastic and rubber",
+            "Clay and other inorganic materials",
+            "Metals and alloys",
+            "Wood and natural fibers"
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "Which of the following is a property of ceramics?",
+        answer: "High hardness and brittleness",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "High electrical conductivity",
+            "High hardness and brittleness",
+            "Flexibility and ductility",
+            "Low melting point"
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "Ceramics are often used in which of the following applications?",
+        answer: "Tiles and pottery",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "Electrical wiring",
+            "Tiles and pottery",
+            "Structural beams",
+            "Batteries"
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "What is a common property of polymers?",
+        answer: "Low density and flexibility",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "High density and rigidity",
+            "Low density and flexibility",
+            "High melting point",
+            "Brittleness"
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "How do the properties of polymers make them suitable for packaging?",
+        answer: "They are lightweight and can be easily molded.",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "They are heavy and rigid.",
+            "They are lightweight and can be easily molded.",
+            "They are conductive and strong.",
+            "They are brittle and break easily."
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "What is a characteristic of composite materials?",
+        answer: "They combine properties of different materials.",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "They are made from a single material.",
+            "They combine properties of different materials.",
+            "They are always heavier than metals.",
+            "They cannot be molded."
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "Why are composites often used in aerospace applications?",
+        answer: "They are lightweight yet strong.",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "They are very heavy.",
+            "They are lightweight yet strong.",
+            "They are cheap and easy to produce.",
+            "They are highly conductive."
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "What is the main difference between metals and alloys?",
+        answer: "Alloys are mixtures of metals and other elements.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "Metals are always pure substances.",
+            "Alloys are mixtures of metals and other elements.",
+            "Alloys are less durable than metals.",
+            "Metals cannot be recycled."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "What is one advantage of using alloys over pure metals?",
+        answer: "Alloys often have improved strength and resistance to corrosion.",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "Alloys are always cheaper.",
+            "Alloys often have improved strength and resistance to corrosion.",
+            "Alloys are less malleable.",
+            "Alloys are more reactive."
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "What is one disadvantage of recycling materials?",
+        answer: "It can be costly and energy-intensive.",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "It reduces waste.",
+            "It can be costly and energy-intensive.",
+            "It creates new jobs.",
+            "It conserves resources."
         ]
     }
 ];

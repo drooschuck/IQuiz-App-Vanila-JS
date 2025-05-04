@@ -1,112 +1,114 @@
+export const quizSubject = "Chem4 - Energy changes";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "What is an exothermic reaction?",
+        answer: "A reaction that releases energy in the form of heat.",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "A reaction that absorbs energy.",
+            "A reaction that releases energy in the form of heat.",
+            "A reaction that occurs at low temperatures.",
+            "A reaction that produces light."
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "What is an endothermic reaction?",
+        answer: "A reaction that absorbs energy from its surroundings.",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "A reaction that releases energy.",
+            "A reaction that absorbs energy from its surroundings.",
+            "A reaction that occurs spontaneously.",
+            "A reaction that produces gas."
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "Which of the following is a characteristic of exothermic reactions?",
+        answer: "They increase the temperature of the surroundings.",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "They absorb heat from the surroundings.",
+            "They increase the temperature of the surroundings.",
+            "They require energy input to proceed.",
+            "They do not involve temperature changes."
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "How can you distinguish between exothermic and endothermic reactions experimentally?",
+        answer: "By measuring temperature changes during the reactions.",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "By observing color changes only.",
+            "By measuring temperature changes during the reactions.",
+            "By the amount of gas produced.",
+            "By the time taken for the reaction to complete."
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "What does an energy level diagram for an exothermic reaction look like?",
+        answer: "The products have lower energy than the reactants.",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "The products have higher energy than the reactants.",
+            "The products have lower energy than the reactants.",
+            "The energy levels are equal.",
+            "The diagram is always horizontal."
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "What happens to energy during bond breaking?",
+        answer: "Energy is absorbed.",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "Energy is released.",
+            "Energy is absorbed.",
+            "No energy change occurs.",
+            "Energy is converted to mass."
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "What is the role of a catalyst in a chemical reaction?",
+        answer: "To speed up the reaction without being consumed.",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "To slow down the reaction.",
+            "To speed up the reaction without being consumed.",
+            "To change the products of the reaction.",
+            "To absorb energy from the reaction."
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "How can bond energies be used to predict whether a reaction is exothermic or endothermic?",
+        answer: "By comparing the total energy required to break bonds and the energy released when new bonds form.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "By looking at the color of the reactants.",
+            "By comparing the total energy required to break bonds and the energy released when new bonds form.",
+            "By measuring the temperature of the reactants only.",
+            "By counting the number of bonds in the reactants."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "What is the energy change during combustion of fuels?",
+        answer: "It is typically exothermic, releasing energy.",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "It is typically endothermic, absorbing energy.",
+            "It is typically exothermic, releasing energy.",
+            "It has no energy change.",
+            "It depends on the type of fuel."
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "What happens during bond making in a chemical reaction?",
+        answer: "Energy is released.",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "Energy is absorbed.",
+            "Energy is released.",
+            "No energy change occurs.",
+            "Energy is converted to light."
         ]
     }
 ];

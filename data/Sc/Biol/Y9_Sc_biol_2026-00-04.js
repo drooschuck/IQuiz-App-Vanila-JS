@@ -1,112 +1,114 @@
+export const quizSubject = "Bio4 - Non-Commun diseases ";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "What is a non-communicable disease?",
+        answer: "A disease that cannot be transmitted from person to person.",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "A disease that can be spread through contact.",
+            "A disease that cannot be transmitted from person to person.",
+            "A disease caused by infections.",
+            "A disease that is always fatal."
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "What is the difference between benign and malignant tumors?",
+        answer: "Benign tumors do not spread, while malignant tumors can invade other tissues.",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "Benign tumors are always cancerous.",
+            "Malignant tumors are harmless.",
+            "Benign tumors do not spread, while malignant tumors can invade other tissues.",
+            "There is no difference."
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "What are some common causes of cancer?",
+        answer: "Genetic factors, carcinogens, and lifestyle choices.",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "Only genetic factors.",
+            "Genetic factors, carcinogens, and lifestyle choices.",
+            "Infections only.",
+            "Poor diet only."
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "What are the risks associated with smoking?",
+        answer: "Increased risk of lung cancer, heart disease, and respiratory issues.",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "Improved lung function.",
+            "Increased risk of lung cancer, heart disease, and respiratory issues.",
+            "No health risks.",
+            "Only affects the skin."
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "How does smoking affect the risk of developing heart disease?",
+        answer: "It damages blood vessels and increases blood pressure.",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "It has no effect.",
+            "It strengthens blood vessels.",
+            "It damages blood vessels and increases blood pressure.",
+            "It reduces cholesterol levels."
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "What is a carcinogen?",
+        answer: "A substance that can cause cancer.",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "A type of cancer.",
+            "A substance that can cause cancer.",
+            "A treatment for cancer.",
+            "A healthy food."
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "What effect does alcohol have on the brain?",
+        answer: "It can impair judgment and coordination.",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "It improves brain function.",
+            "It can impair judgment and coordination.",
+            "It has no effect.",
+            "It strengthens memory."
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "What is diabetes?",
+        answer: "A condition where the body cannot properly regulate blood sugar levels.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "A disease caused by infections.",
+            "A condition where the body cannot properly regulate blood sugar levels.",
+            "A type of cancer.",
+            "A heart condition."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "How does obesity increase the risk of type 2 diabetes?",
+        answer: "It can lead to insulin resistance.",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "It has no effect.",
+            "It can lead to insulin resistance.",
+            "It decreases blood sugar levels.",
+            "It improves insulin sensitivity."
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "What is a lifestyle factor?",
+        answer: "A behavior or habit that can affect health.",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "A genetic trait.",
+            "A behavior or habit that can affect health.",
+            "An environmental condition.",
+            "A type of medication."
         ]
     }
 ];

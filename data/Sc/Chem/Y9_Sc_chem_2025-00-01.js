@@ -1,112 +1,114 @@
+export const quizSubject = "Chem1 - Chem reactions";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "What is the correct symbol equation for the reaction between magnesium and hydrochloric acid?",
+        answer: "Mg + 2HCl → MgCl₂ + H₂",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "Mg + HCl → MgCl + H₂",
+            "Mg + 2HCl → MgCl₂ + H₂",
+            "Mg + HCl₂ → MgCl₂ + H",
+            "Mg + 2HCl → MgH₂ + Cl₂"
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "Which metal is the most reactive in the reactivity series?",
+        answer: "Potassium",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "Copper",
+            "Iron",
+            "Potassium",
+            "Gold"
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "According to the reactivity series, will zinc react with hydrochloric acid?",
+        answer: "Yes, zinc will react to produce zinc chloride and hydrogen gas.",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "No, zinc is less reactive than hydrogen.",
+            "Yes, zinc will react to produce zinc chloride and hydrogen gas.",
+            "No, zinc does not react with acids.",
+            "Yes, zinc will react to produce zinc oxide and hydrogen."
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "In the reaction: 2Al + 3Cl₂ → 2AlCl₃, what is the coefficient for chlorine gas?",
+        answer: "3",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "Which of the following metals will displace copper from copper sulfate solution?",
+        answer: "Iron",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "Silver",
+            "Gold",
+            "Iron",
+            "Copper"
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "What type of reaction is represented by the equation: Zn + 2HCl → ZnCl₂ + H₂?",
+        answer: "Displacement reaction",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "Combination reaction",
+            "Displacement reaction",
+            "Decomposition reaction",
+            "Neutralization reaction"
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "Balance the equation: ___ Na + ___ Cl₂ → ___ NaCl",
+        answer: "2 Na + 1 Cl₂ → 2 NaCl",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "2 Na + 1 Cl₂ → 2 NaCl",
+            "1 Na + 1 Cl₂ → 1 NaCl",
+            "1 Na + 2 Cl₂ → 1 NaCl",
+            "2 Na + 2 Cl₂ → 2 NaCl"
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "Why does magnesium tarnish quickly when exposed to air?",
+        answer: "Because it reacts with oxygen to form magnesium oxide.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "Because it absorbs moisture from the air.",
+            "Because it reacts with oxygen to form magnesium oxide.",
+            "Because it reacts with nitrogen.",
+            "Because it is highly reactive with hydrogen."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "What is the product when iron reacts with steam (water vapor)?",
+        answer: "Iron oxide and hydrogen gas",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "Iron hydroxide",
+            "Iron oxide and hydrogen gas",
+            "Iron chloride",
+            "Iron sulfate"
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "Which metal will not react with dilute acids?",
+        answer: "Copper",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "Magnesium",
+            "Copper",
+            "Zinc",
+            "Aluminium"
         ]
     }
 ];

@@ -394,6 +394,12 @@ footer button.show {
     .welcome_message h1 {
         font-size: 24px;
     }
+    .welcome_message {
+        z-index: 1000 !important;
+    }
+    .quiz_box.activeQuiz {
+        z-index: 999 !important;
+    }
 }
 
 @media (min-width: 601px) {

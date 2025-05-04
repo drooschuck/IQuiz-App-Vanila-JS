@@ -1,3 +1,4 @@
+export const quizSubject = "Phy4 - Forces & Motion";
 
 let questions = [
     {

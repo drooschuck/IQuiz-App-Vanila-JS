@@ -1,112 +1,114 @@
+export const quizSubject = "Bio - Inheritance ";
+
 let questions = [
     {
         numb: 1,
-        question: "What is wave motion?",
-        answer: "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
+        question: "How are characteristics inherited?",
+        answer: "Through genes passed from parents to offspring.",
         options: [
-            "The movement of particles in a solid",
-            "Wave motion is the transfer of energy through a medium without the permanent displacement of the medium itself.",
-            "The motion of a solid object",
-            "The flow of electricity"
+            "Through environmental factors.",
+            "Through genes passed from parents to offspring.",
+            "Through random chance.",
+            "Through learned behavior."
         ]
     },
     {
         numb: 2,
-        question: "Define wavelength.",
-        answer: "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
+        question: "What is the relationship between DNA, genes, and chromosomes?",
+        answer: "Genes are segments of DNA located on chromosomes.",
         options: [
-            "The height of a wave",
-            "Wavelength is the distance between two consecutive points that are in phase on a wave, such as crest to crest or trough to trough.",
-            "The speed of a wave",
-            "The frequency of a wave"
+            "Chromosomes are made of proteins.",
+            "Genes are segments of DNA located on chromosomes.",
+            "DNA is made of chromosomes.",
+            "Genes and chromosomes are the same."
         ]
     },
     {
         numb: 3,
-        question: "What is the relationship between wavelength, frequency, and wave velocity?",
-        answer: "Wave velocity = wavelength × frequency",
+        question: "How might a DNA mutation affect an organism?",
+        answer: "It can lead to changes in traits and may be passed to offspring.",
         options: [
-            "Wave velocity = frequency / wavelength",
-            "Wave velocity = wavelength + frequency",
-            "Wave velocity = wavelength × frequency",
-            "Wave velocity = wavelength - frequency"
+            "It has no effect on the organism.",
+            "It can lead to changes in traits and may be passed to offspring.",
+            "It always results in death.",
+            "It only affects the organism's appearance."
         ]
     },
     {
         numb: 4,
-        question: "Compare the motion of transverse and longitudinal waves.",
-        answer: "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
+        question: "Who has identical DNA?",
+        answer: "Identical twins.",
         options: [
-            "Both are the same",
-            "Transverse waves move in circles, longitudinal waves move in straight lines",
-            "Transverse waves are faster than longitudinal waves",
-            "In transverse waves, the particle motion is perpendicular to the direction of wave propagation, while in longitudinal waves, the particle motion is parallel to the direction of wave propagation.",
-        ]    
+            "Siblings.",
+            "Identical twins.",
+            "Parents and children.",
+            "All humans."
+        ]
     },
     {
         numb: 5,
-        question: "How can different waves be classified?",
-        answer: "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
+        question: "What is the structure of DNA?",
+        answer: "A double helix made of nucleotides.",
         options: [
-            "By their color",
-            "By their speed",
-            "Waves can be classified based on their medium (mechanical or electromagnetic) and their motion (transverse or longitudinal).",
-            "By their frequency"
+            "A single strand of nucleotides.",
+            "A double helix made of nucleotides.",
+            "A triple helix.",
+            "A linear chain of amino acids."
         ]
     },
     {
         numb: 6,
-        question: "How can the speed of sound in air be measured?",
-        answer: "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
+        question: "How did scientists work together to discover the structure of DNA?",
+        answer: "They combined X-ray diffraction data and model building.",
         options: [
-            "Using a thermometer",
-            "The speed of sound in air can be measured by timing how long it takes for a sound to travel a known distance.",
-            "Using a ruler",
-            "By counting the number of waves"
+            "They used only chemical analysis.",
+            "They combined X-ray diffraction data and model building.",
+            "They relied solely on computer simulations.",
+            "They conducted experiments on living organisms."
         ]
     },
     {
         numb: 7,
-        question: "How can the speed of water ripples be measured?",
-        answer: "By timing how long it takes for a ripple to travel a known distance across the water surface.",
+        question: "What is a genome?",
+        answer: "The complete set of genetic material in an organism.",
         options: [
-            "By measuring the height of the ripples",
-            "By timing how long it takes for a ripple to travel a known distance across the water surface.",
-            "By counting the number of ripples",
-            "By measuring the temperature of the water"
+            "A single gene.",
+            "The complete set of genetic material in an organism.",
+            "A type of chromosome.",
+            "The structure of DNA."
         ]
     },
     {
         numb: 8,
-        question: "What is reflection in terms of wave behavior?",
-        answer: "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
+        question: "What is an allele?",
+        answer: "A variant form of a gene.",
         options: [
-            "The bending of waves",
-            "The absorption of waves",
-            "Reflection is the bouncing back of a wave when it hits a barrier or a different medium.",
-            "The splitting of waves"
+            "A type of chromosome.",
+            "A variant form of a gene.",
+            "A complete set of DNA.",
+            "A mutation in DNA."
         ]
     },
     {
         numb: 9,
-        question: "What is refraction?",
-        answer: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
+        question: "What is the difference between dominant and recessive alleles?",
+        answer: "Dominant alleles express their traits even when only one copy is present.",
         options: [
-            "The bouncing back of waves",
-            "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed.",
-            "The spreading of waves",
-            "The absorption of waves"
+            "Recessive alleles are always expressed.",
+            "Dominant alleles express their traits even when only one copy is present.",
+            "Dominant alleles are weaker than recessive alleles.",
+            "Recessive alleles are never expressed."
         ]
     },
     {
         numb: 10,
-        question: "Describe an experiment to demonstrate reflection and refraction of light.",
-        answer: "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
+        question: "What is genetic modification?",
+        answer: "The alteration of an organism's DNA to achieve desired traits.",
         options: [
-            "Using a flashlight in a dark room",
-            "An experiment can involve shining a laser pointer at a mirror to observe reflection and at a glass prism to observe refraction.",
-            "Using a magnifying glass",
-            "Observing shadows"
+            "The natural selection of traits.",
+            "The alteration of an organism's DNA to achieve desired traits.",
+            "The cloning of organisms.",
+            "The process of breeding organisms."
         ]
     }
 ];
