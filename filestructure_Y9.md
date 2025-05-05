@@ -6,7 +6,7 @@ Y9_Sc_Pt1_ER_2025-04-21.js
 Y9_Sc_Pt2_ES_2025-04-22.js
 Y9_Sc_Pt3_Cr_2025-04-23.js
 Y9_Sc_Pt4_FM_2025-04-24.js
-Y9_Sc_Pt5_WP_2025-04-25.js
+Y9_Sc_Pt5_Wave Properties_2025-04-25.js
 
 Chemistry 
 
