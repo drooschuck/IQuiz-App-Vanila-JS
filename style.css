@@ -391,8 +391,83 @@ footer button.show {
 }
 
 @media (max-width: 600px) {
+    body {
+        background: #007bff;
+        padding: 10px;
+        overflow-y: auto; /* Enable vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        height: 100vh; /* Full viewport height */
+    }
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 95% !important;
+        max-width: 100% !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) scale(1) !important;
+        position: fixed !important;
+        box-shadow: none !important;
+        border-radius: 10px !important;
+        max-height: 90vh; /* Limit max height */
+        overflow-y: auto; /* Enable scrolling inside boxes */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+    .start_btn button {
+        font-size: 20px !important;
+        padding: 12px 20px !important;
+    }
+    .info_box .info-title,
+    .quiz_box header,
+    .result_box {
+        padding: 15px !important;
+    }
+    .info_box .info-list {
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+    .info_box .buttons button,
+    .result_box .buttons button {
+        width: 100% !important;
+        margin: 5px 0 !important;
+        font-size: 16px !important;
+        height: 40px !important;
+    }
+    .quiz_box header .title {
+        font-size: 18px !important;
+    }
+    .quiz_box header .timer {
+        width: 120px !important;
+        height: 40px !important;
+        font-size: 14px !important;
+    }
+    .quiz_box header .timer .time_left_txt {
+        font-size: 14px !important;
+    }
+    .quiz_box header .timer .timer_sec {
+        font-size: 16px !important;
+        height: 25px !important;
+        width: 40px !important;
+        line-height: 25px !important;
+    }
+    section .que_text {
+        font-size: 20px !important;
+    }
+    section .option_list .option {
+        font-size: 16px !important;
+        padding: 10px !important;
+    }
+    footer {
+        padding: 10px !important;
+    }
+    footer button {
+        font-size: 16px !important;
+        height: 40px !important;
+        padding: 0 10px !important;
+    }
     .welcome_message h1 {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     .welcome_message {
         z-index: 1000 !important;
@@ -411,4 +486,17 @@ footer button.show {
 img, video {
     max-width: 100%;
     height: auto;
+}
+
+.subject-notification {
+    color: #ffffff;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    background-color: #ff4d4d; /* brighter red background */
+    padding: 8px 12px;
+    border: 1px solid #cc0000; /* darker red border */
+    border-radius: 4px;
+    max-width: 300px;
 }

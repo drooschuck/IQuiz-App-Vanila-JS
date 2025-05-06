@@ -1,3 +1,4 @@
+export let quizSubject = "NUMBER and ALGEBRA ";
 let questions = [
     {
       numb: 1,

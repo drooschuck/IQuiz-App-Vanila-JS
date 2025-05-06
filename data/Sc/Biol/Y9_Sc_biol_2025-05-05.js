@@ -1,4 +1,4 @@
-export const quizSubject = "Bio - Inheritance ";
+export let quizSubject = "Bio - Inheritance ";
 
 let questions = [
     {
