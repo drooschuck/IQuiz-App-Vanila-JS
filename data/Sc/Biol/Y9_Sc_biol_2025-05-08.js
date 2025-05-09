@@ -1,4 +1,4 @@
-export const quizSubject = "Bio4 - Non-Commun diseases ";
+export let quizSubject = "Bio4 - Non-Commun diseases ";
 
 let questions = [
     {

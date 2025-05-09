@@ -1,4 +1,4 @@
-export const quizSubject = "Chem1 - Chem reactions";
+export let quizSubject = "Chem1 - Chem reactions";
 
 let questions = [
     {
