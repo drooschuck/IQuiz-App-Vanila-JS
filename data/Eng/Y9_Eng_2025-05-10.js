@@ -1,5 +1,5 @@
 
-export let quizSubject = "Eng - PT1 ";
+export let quizSubject = "PT1 - Diverse Shorts";
 
 let questions = [
     {

@@ -26,10 +26,10 @@ async function loadQuestions(subject, dateString) {
             filePath = `../data/Sc/Biol/Y9_Sc_biol_${dateString}.js`;
             break;
         case "Math":
-            filePath = `../data/math/Y9_Math_Pt1_${dateString}.js`;
+            filePath = `../data/math/Y9_Math_${dateString}.js`;
             break;
         case "CS":
-            filePath = `../data/CS/Y9_Cs_Pt1_${dateString}.js`;
+            filePath = `../data/CS/Y9_Cs_${dateString}.js`;
             break;
         case "Eng":
             filePath = `../data/Eng/Y9_Eng_${dateString}.js`;
