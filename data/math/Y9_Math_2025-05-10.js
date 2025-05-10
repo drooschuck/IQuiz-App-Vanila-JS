@@ -1,4 +1,4 @@
-export let quizSubject = "NUMBER and ALGEBRA ";
+export let quizSubject = "P1-NUMB, ALGEBRA and STATs ";
 let questions = [
     {
       numb: 1,

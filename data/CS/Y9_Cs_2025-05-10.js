@@ -1,3 +1,5 @@
+
+export let quizSubject = "CS1 - Scratch B Coding";
 let questions = [
     {
       numb: 1,

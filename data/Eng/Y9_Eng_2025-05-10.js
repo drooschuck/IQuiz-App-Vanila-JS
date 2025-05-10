@@ -1,4 +1,6 @@
 
+export let quizSubject = "Eng - PT1 ";
+
 let questions = [
     {
       numb: 1,

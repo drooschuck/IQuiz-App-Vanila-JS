@@ -32,7 +32,7 @@ async function loadQuestions(subject, dateString) {
             filePath = `../data/CS/Y9_Cs_Pt1_${dateString}.js`;
             break;
         case "Eng":
-            filePath = `../data/Eng/Y9_Eng_Pt1_${dateString}.js`;
+            filePath = `../data/Eng/Y9_Eng_${dateString}.js`;
             break;
         default:
             throw new Error("Invalid subject specified");
