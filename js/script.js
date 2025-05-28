@@ -295,6 +295,9 @@ continue_btn.onclick = () => {
 
 // Quit quiz
 quit_quiz.onclick = () => {
+     // Reset quiz state variables
+        resetQuiz();
+    
     // Hide quiz and result boxes
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.remove("activeResult");
