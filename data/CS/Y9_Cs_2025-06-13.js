@@ -1,118 +1,117 @@
-export let quizSubject = "CS3 - An introd to Python";
+export let quizSubject = "CS2 - Scratch B Coding";
 
 let questions = [
     {
       numb: 1,
-      question: "What is an algorithm?",
-      answer: "A step-by-step procedure for solving a problem",
+      question: "Which of the following best describes an algorithm?",
+      answer: "A step-by-step procedure or set of rules to solve a problem",
       options: [
-        "A type of programming language",
-        "A step-by-step procedure for solving a problem",
-        "A syntax error in code",
-        "A variable in a program"
+        "A high-level programming language",
+        "A step-by-step procedure or set of rules to solve a problem",
+        "A variable in a program",
+        "An error in the code"
       ]
     },
     {
       numb: 2,
-      question: "What is the purpose of debugging a program?",
-      answer: "To identify and fix errors in the code",
+      question: "In Scratch, what does sequencing instructions mean?",
+      answer: "Putting blocks in the correct order to make something happen",
       options: [
-        "To make the program run faster",
-        "To identify and fix errors in the code",
-        "To add new features",
-        "To change the program's output"
+        "Grouping blocks by color",
+        "Putting blocks in the correct order to make something happen",
+        "Repeating a block multiple times",
+        "Using variables to store data"
       ]
     },
     {
       numb: 3,
-      question: "Which of the following is a common syntax error in Python?",
-      answer: "Missing a colon at the end of a function definition",
+      question: "Which of these is a correct use of a variable?",
+      answer: "Storing a score in a game",
       options: [
-        "Using a variable before it is defined",
-        "Missing a colon at the end of a function definition",
-        "Incorrect indentation",
-        "All of the above"
+        "Changing the color of the stage directly",
+        "Storing a score in a game",
+        "Executing blocks without order",
+        "Deleting all code blocks"
       ]
     },
     {
       numb: 4,
-      question: "How can you handle user input errors in Python?",
-      answer: "Using try-except blocks",
+      question: "What is a procedural block in Scratch?",
+      answer: "A block that contains a set of instructions to perform a task",
       options: [
-        "Using if statements",
-        "Using loops",
-        "Using try-except blocks",
-        "Using print statements"
+        "An individual sprite",
+        "A block that contains a set of instructions to perform a task",
+        "A background image",
+        "A sound effect"
       ]
     },
     {
       numb: 5,
-      question: "What should a program do if it encounters an error due to invalid user input?",
-      answer: "Print an error message and prompt the user to try again",
+      question: "Which Boolean operator would you use to check if two conditions are both true?",
+      answer: "AND",
       options: [
-        "Stop running without any message",
-        "Print an error message and prompt the user to try again",
-        "Automatically correct the input",
-        "Ignore the error and continue"
+        "OR",
+        "NOT",
+        "AND",
+        "XOR"
       ]
     },
     {
       numb: 6,
-      question: "What is the output of the following code: print(2 + 3 * 4)?",
-      answer: "14",
+      question: "How can you repeat a set of instructions multiple times in Scratch?",
+      answer: "Using a loop block",
       options: [
-        "20",
-        "14",
-        "12",
-        "17"
+        "Using a variable block",
+        "Using a loop block",
+        "Using a conditional block",
+        "Using a sound block"
       ]
     },
     {
       numb: 7,
-      question: "Which of the following is a logical error?",
-      answer: "The program runs without crashing but produces incorrect results",
+      question: "What happens if the sequence of blocks is incorrect?",
+      answer: "The program may not work as intended",
       options: [
-        "The program crashes with an error message",
-        "The program runs without crashing but produces incorrect results",
-        "The program has a syntax error",
-        "The program does not compile"
+        "The program runs faster",
+        "The program may not work as intended",
+        "The program automatically fixes itself",
+        "Nothing happens"
       ]
     },
     {
       numb: 8,
-      question: "What is the purpose of using comments in Python code?",
-      answer: "To explain the code and make it easier to understand",
+      question: "Which block type in Scratch can store and update values during program execution?",
+      answer: "Variable blocks",
       options: [
-        "To make the code run faster",
-        "To explain the code and make it easier to understand",
-        "To create variables",
-        "To define functions"
+        "Look blocks",
+        "Motion blocks",
+        "Variable blocks",
+        "Sound blocks"
       ]
     },
     {
       numb: 9,
-      question: "What will happen if you try to divide a number by zero in Python?",
-      answer: "It will raise a ZeroDivisionError",
+      question: "What does the Boolean operator 'OR' do?",
+      answer: "Returns true if at least one condition is true",
       options: [
-        "It will return zero",
-        "It will raise a ZeroDivisionError",
-        "It will return infinity",
-        "It will stop the program without an error"
+        "Returns true only if both conditions are true",
+        "Returns true if at least one condition is true",
+        "Always returns false",
+        "Negates a condition"
       ]
     },
     {
       numb: 10,
-      question: "What is the correct way to define a function in Python?",
-      answer: "def function_name():",
+      question: "What is the purpose of using procedures or custom blocks?",
+      answer: "To reuse a set of instructions multiple times",
       options: [
-        "function function_name():",
-        "def function_name():",
-        "define function_name():",
-        "func function_name():"
+        "To change the background",
+        "To store values",
+        "To reuse a set of instructions multiple times",
+        "To stop the program"
       ]
     }
   ];
-  
   export { questions };
   
   
