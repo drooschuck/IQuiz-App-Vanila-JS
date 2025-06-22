@@ -1,218 +1,170 @@
-export const quizSubject = "Phy2 - Energy Resources";
-
+export const quizSubject = "Phy3 - Circuits";
 let questions = [
-    {
-        numb: 1,
-        question: "Describe a force.",
-        answer: "A push or pull acting on an object.",
-        options: [
-            "The energy of an object.",
-            "A push or pull acting on an object.",
-            "The speed of an object.",
-            "The distance traveled by an object."
-            
-        ]
-    },
-    {
-        numb: 2,
-        question: "What is the difference between contact and non-contact forces?",
-        answer: "Contact forces require physical contact, while non-contact forces act at a distance.",
-        options: [
-            
-            "Contact forces are stronger than non-contact forces.",
-            "Non-contact forces can only be gravitational.",
-            "Contact forces require physical contact, while non-contact forces act at a distance.",
-            "Contact forces can only be magnetic."
-        ]
-    },
-    {
-        numb: 3,
-        question: "State examples of scalar and vector quantities.",
-        answer: "Scalar: speed; Vector: velocity.",
-        options: [
-            
-            "Scalar: distance; Vector: mass.",
-            "Scalar: weight; Vector: force.",
-            "Scalar: time; Vector: energy.",
-            "Scalar: speed; Vector: velocity."
-        ]
-    },
-    {
-        numb: 4,
-        question: "How do you calculate speed?",
-        answer: "Speed = distance / time.",
-        options: [
-            "Speed = time / distance.",
-            "Speed = distance / time.",
-            "Speed = distance + time.",
-            "Speed = distance - time."
-        ]
-    },
-    {
-        numb: 5,
-        question: "Define velocity.",
-        answer: "Velocity is speed in a given direction.",
-        options: [
-            
-            "Velocity is the total distance traveled.",
-            "Velocity is the change in speed.",
-            "Velocity is speed in a given direction.",
-            "Velocity is the same as mass."
-        ]
-    },
-    {
-        numb: 6,
-        question: "How do you calculate acceleration?",
-        answer: "Acceleration = (final velocity - initial velocity) / time.",
-        options: [
-           
-            "Acceleration = distance / time.",
-            "Acceleration = velocity / time.",
-            "Acceleration = mass / force.",
-            "Acceleration = (final velocity - initial velocity) / time."
-        ]
-    },
-    {
-        numb: 7,
-        question: "How can you calculate speed from a distance-time graph?",
-        answer: "Speed is the slope of the distance-time graph.",
-        options: [
-            "Speed is the slope of the distance-time graph.",
-            "Speed is the area under the graph.",
-            "Speed is the y-intercept of the graph.",
-            "Speed is the total distance."
-        ]
-    },
-    {
-        numb: 8,
-        question: "How do you calculate acceleration using a velocity-time graph?",
-        answer: "Acceleration is the slope of the velocity-time graph.",
-        options: [
-            
-            "Acceleration is the area under the graph.",
-            "Acceleration is the slope of the velocity-time graph.",
-            "Acceleration is the total change in velocity.",
-            "Acceleration is the y-intercept of the graph."
-        ]
-    },
-    {
-        numb: 9,
-        question: "How can you calculate displacement using a velocity-time graph?",
-        answer: "Displacement is the area under the velocity-time graph.",
-        options: [
-           
-            "Displacement is the slope of the graph.",
-            "Displacement is the total change in velocity.",
-            "Displacement is the area under the velocity-time graph.",
-            "Displacement is the y-intercept of the graph."
-        ]
-    },
-    {
-        numb: 10,
-        question: "What happens to the motion of an object when the resultant force is not zero?",
-        answer: "The object will accelerate in the direction of the resultant force.",
-        options: [
-            
-            "The object will remain at rest.",
-            "The object will move at constant speed.",
-            "The object will decelerate.",
-            "The object will accelerate in the direction of the resultant force."
-        ]
-    },
-    {
-        numb: 11,
-        question: "Analyze a situation where a non-zero resultant force is acting.",
-        answer: "A car accelerating when the engine applies a greater force than friction.",
-        options: [
-            
-            "A car moving at constant speed on a flat road.",
-            "A car accelerating when the engine applies a greater force than friction.",
-            "A ball rolling to a stop due to friction.",
-            "A person standing still."
-        ]
-    },
-    {
-        numb: 12,
-        question: "Explain what inertia is.",
-        answer: "Inertia is the tendency of an object to resist changes in its state of motion.",
-        options: [
-            
-            "Inertia is the mass of an object.",
-            "Inertia is the force acting on an object.",
-            "Inertia is the tendency of an object to resist changes in its state of motion.",
-            "Inertia is the speed of an object."
-        ]
-    },
-    {
-        numb: 13,
-        question: "What is the difference between mass and weight?",
-        answer: "Mass is the amount of matter in an object, while weight is the force of gravity acting on that mass.",
-        options: [
-            "Mass is the amount of matter in an object, while weight is the force of gravity acting on that mass.",
-            "Mass and weight are the same.",
-            "Mass is measured in newtons, while weight is measured in kilograms.",
-            "Weight is constant, while mass varies."
-        ]
-    },
-    {
-        numb: 14,
-        question: "Describe the motion of a falling object.",
-        answer: "A falling object accelerates downwards due to gravity until it reaches terminal velocity.",
-        options: [
-            
-            "A falling object moves at a constant speed.",
-            "A falling object accelerates downwards due to gravity until it reaches terminal velocity.",
-            "A falling object decelerates as it falls.",
-            "A falling object moves upwards."
-        ]
-    },
-    {
-        numb: 15,
-        question: "Define terminal velocity.",
-        answer: "Terminal velocity is the constant speed reached by an object when the force of gravity is balanced by air resistance.",
-        options: [
-            
-            "Terminal velocity is the speed of an object just before it hits the ground.",
-            "Terminal velocity is the maximum speed of an object.",
-            "Terminal velocity is the constant speed reached by an object when the force of gravity is balanced by air resistance.",
-            "Terminal velocity is the speed of sound."
-        ]
-    },
-    {
-        numb: 16,
-        question: "Define stopping distance.",
-        answer: "Stopping distance is the total distance a vehicle travels from the moment the driver applies the brakes to when it comes to a complete stop.",
-        options: [
-            
-            "Stopping distance is the distance traveled before the brakes are applied.",
-            "Stopping distance is the distance traveled after the brakes are applied.",
-            "Stopping distance is the distance traveled at maximum speed.",
-            "Stopping distance is the total distance a vehicle travels from the moment the driver applies the brakes to when it comes to a complete stop."
-        ]
-    },
-    {
-        numb: 17,
-        question: "What factors affect stopping distance?",
-        answer: "Factors include speed, road conditions, vehicle condition, and reaction time.",
-        options: [
-            "Factors include speed, road conditions, vehicle condition, and reaction time.",
-            "Only speed affects stopping distance.",
-            "Only road conditions affect stopping distance.",
-            "Stopping distance is constant regardless of conditions."
-        ]
-    },
-    {
-        numb: 18,
-        question: "How do you calculate braking force?",
-        answer: "Braking force = (mass * change in velocity) / time taken to stop.",
-        options: [
-           
-            "Braking force = mass * acceleration.",
-            "Braking force = (mass * change in velocity) / time taken to stop.",
-            "Braking force = velocity / time.",
-            "Braking force = distance / time."
-        ]
-    }
+  {
+    numb: 1,
+    question: "How are most energy demands met today?",
+    answer: "Through a mix of fossil fuels, renewable energy sources, and nuclear power.",
+    options: [
+      "Only through fossil fuels",
+      "Only through renewable energy",
+      "Through a mix of fossil fuels, renewable energy sources, and nuclear power.",
+      "Only through nuclear power"
+    ]
+  },
+  {
+    numb: 2,
+    question: "What is the basic principle of how a power station works?",
+    answer: "It converts energy from fuel into electricity",
+    options: [
+      "It stores energy for later use",
+      "It converts energy from fuel into electricity",
+      "It generates energy from the sun",
+      "It uses wind to create energy"
+    ]
+  },
+  {
+    numb: 3,
+    question: "How does a nuclear power station generate electricity?",
+    answer: "By using nuclear fission to heat water, producing steam that drives turbines.",
+    options: [
+      "By burning coal to create steam",
+      "By using nuclear fission to heat water, producing steam that drives turbines.",
+      "By harnessing wind energy",
+      "By converting solar energy directly into electricity"
+    ]
+  },
+  {
+    numb: 4,
+    question: "How can wind be used to generate electricity?",
+    answer: "By using wind turbines that convert kinetic energy from wind into electrical energy.",
+    options: [
+      "By using solar panels",
+      "By burning fossil fuels",
+      "By using wind turbines that convert kinetic energy from wind into electrical energy.",
+      "By harnessing geothermal energy"
+    ]
+  },
+  {
+    numb: 5,
+    question: "How is water used to generate electricity?",
+    answer: "Through hydroelectric power stations that convert the energy of flowing water into electricity.",
+    options: [
+      "By using solar panels",
+      "Through hydroelectric power stations that convert the energy of flowing water into electricity.",
+      "By burning natural gas",
+      "By using wind turbines"
+    ]
+  },
+  {
+    numb: 6,
+    question: "How do solar panels work?",
+    answer: "They convert sunlight directly into electricity using photovoltaic cells.",
+    options: [
+      "They store energy from the sun",
+      "They convert sunlight into heat",
+      "They convert sunlight directly into electricity using photovoltaic cells.",
+      "They use mirrors to focus sunlight"
+    ]
+  },
+  {
+    numb: 7,
+    question: "How can geothermal energy be used?",
+    answer: "By harnessing heat from the Earth's interior to generate electricity or heat buildings.",
+    options: [
+      "By using solar panels",
+      "By burning fossil fuels",
+      "By harnessing heat from the Earth's interior to generate electricity or heat buildings.",
+      "By using wind turbines"
+    ]
+  },
+  {
+    numb: 8,
+    question: "What is one major environmental effect of fossil fuels?",
+    answer: "They contribute to air pollution and climate change.",
+    options: [
+      "They are completely renewable",
+      "They contribute to air pollution and climate change.",
+      "They have no environmental impact",
+      "They are the cleanest energy source"
+    ]
+  },
+  {
+    numb: 9,
+    question: "Compare different energy resources: which is renewable?",
+    answer: "Wind, solar, and hydroelectric energy are renewable resources.",
+    options: [
+      "Coal and oil",
+      "Natural gas and nuclear",
+      "Wind, solar, and hydroelectric energy are renewable resources.",
+      "All energy resources are renewable"
+    ]
+  },
+  {
+    numb: 10,
+    question: "What is a key factor in evaluating different energy resources?",
+    answer: "Their environmental impact, cost, and sustainability.",
+    options: [
+      "Only their cost",
+      "Only their availability",
+      "Their environmental impact, cost, and sustainability.",
+      "Only their efficiency"
+    ]
+  },
+  {
+    numb: 11,
+    question: "How do electricity supplies meet variations in demand?",
+    answer: "By adjusting the output of power stations and using energy storage systems.",
+    options: [
+      "By only using renewable sources",
+      "By adjusting the output of power stations and using energy storage systems.",
+      "By shutting down power stations",
+      "By increasing fossil fuel use"
+    ]
+  },
+  {
+    numb: 12,
+    question: "What are the economic costs of different energy resources?",
+    answer: "They vary based on extraction, production, and environmental impact.",
+    options: [
+      "They are all the same",
+      "They vary based on extraction, production, and environmental impact.",
+      "Only renewable resources have costs",
+      "Fossil fuels are always cheaper"
+    ]
+  },
+  {
+    numb: 13,
+    question: "What is a global trend in energy use?",
+    answer: "An increasing shift towards renewable energy sources.",
+    options: [
+      "Decreasing use of fossil fuels",
+      "An increasing shift towards renewable energy sources.",
+      "Stable use of coal",
+      "Complete reliance on nuclear energy"
+    ]
+  },
+  {
+    numb: 14,
+    question: "How can scientific language enhance communication of ideas?",
+    answer: "It provides clarity and precision in conveying complex concepts.",
+    options: [
+      "It makes ideas more confusing",
+      "It provides clarity and precision in conveying complex concepts.",
+      "It is unnecessary for scientific discussions",
+      "It simplifies all concepts"
+    ]
+  },
+  {
+    numb: 15,
+    question: "Why is it important to communicate scientific ideas effectively?",
+    answer: "To ensure understanding and informed decision-making among the public.",
+    options: [
+      "To impress others with jargon",
+      "To ensure understanding and informed decision-making among the public.",
+      "To avoid discussions",
+      "To keep information secret"
+    ]
+  }
 ];
 
 export { questions };

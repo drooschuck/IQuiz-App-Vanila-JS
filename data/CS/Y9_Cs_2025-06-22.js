@@ -1,118 +1,117 @@
-export let quizSubject = "CS5 - Computer Science";
+export let quizSubject = "CS2 - Scratch B Coding";
 
 let questions = [
     {
       numb: 1,
-      question: "What is one way to build confidence in using computer technology?",
-      answer: "Practicing regularly and exploring new tools",
+      question: "Which of the following best describes an algorithm?",
+      answer: "A step-by-step procedure or set of rules to solve a problem",
       options: [
-        "Avoiding new software",
-        "Practicing regularly and exploring new tools",
-        "Only using familiar applications",
-        "Relying on others for help"
+        "A high-level programming language",
+        "A step-by-step procedure or set of rules to solve a problem",
+        "A variable in a program",
+        "An error in the code"
       ]
     },
     {
       numb: 2,
-      question: "How can creativity be enhanced through the use of technology?",
-      answer: "By using digital tools to brainstorm and visualize ideas",
+      question: "In Scratch, what does sequencing instructions mean?",
+      answer: "Putting blocks in the correct order to make something happen",
       options: [
-        "By limiting access to information",
-        "By using digital tools to brainstorm and visualize ideas",
-        "By following strict guidelines",
-        "By avoiding collaboration"
+        "Grouping blocks by color",
+        "Putting blocks in the correct order to make something happen",
+        "Repeating a block multiple times",
+        "Using variables to store data"
       ]
     },
     {
       numb: 3,
-      question: "What is a benefit of using technology for collaboration?",
-      answer: "It allows people from different backgrounds to share ideas easily",
+      question: "Which of these is a correct use of a variable?",
+      answer: "Storing a score in a game",
       options: [
-        "It limits communication to local teams",
-        "It allows people from different backgrounds to share ideas easily",
-        "It requires everyone to be in the same location",
-        "It complicates the sharing of information"
+        "Changing the color of the stage directly",
+        "Storing a score in a game",
+        "Executing blocks without order",
+        "Deleting all code blocks"
       ]
     },
     {
       numb: 4,
-      question: "Which of the following tools can enhance productivity in a team setting?",
-      answer: "Project management software",
+      question: "What is a procedural block in Scratch?",
+      answer: "A block that contains a set of instructions to perform a task",
       options: [
-        "Word processors",
-        "Project management software",
-        "Web browsers",
-        "Media players"
+        "An individual sprite",
+        "A block that contains a set of instructions to perform a task",
+        "A background image",
+        "A sound effect"
       ]
     },
     {
       numb: 5,
-      question: "How does technology facilitate the sharing of experiences across cultures?",
-      answer: "By providing platforms for communication and content sharing",
+      question: "Which Boolean operator would you use to check if two conditions are both true?",
+      answer: "AND",
       options: [
-        "By restricting access to information",
-        "By providing platforms for communication and content sharing",
-        "By promoting only local content",
-        "By limiting user interaction"
+        "OR",
+        "NOT",
+        "AND",
+        "XOR"
       ]
     },
     {
       numb: 6,
-      question: "What is an example of a collaborative tool that allows for real-time communication?",
-      answer: "Video conferencing software",
+      question: "How can you repeat a set of instructions multiple times in Scratch?",
+      answer: "Using a loop block",
       options: [
-        "Spreadsheet applications",
-        "Video conferencing software",
-        "Word processing software",
-        "Presentation software"
+        "Using a variable block",
+        "Using a loop block",
+        "Using a conditional block",
+        "Using a sound block"
       ]
     },
     {
       numb: 7,
-      question: "What role does feedback play in using technology creatively?",
-      answer: "It helps refine ideas and improve outcomes",
+      question: "What happens if the sequence of blocks is incorrect?",
+      answer: "The program may not work as intended",
       options: [
-        "It slows down the creative process",
-        "It helps refine ideas and improve outcomes",
-        "It is unnecessary in creative work",
-        "It complicates decision-making"
+        "The program runs faster",
+        "The program may not work as intended",
+        "The program automatically fixes itself",
+        "Nothing happens"
       ]
     },
     {
       numb: 8,
-      question: "Which of the following is a way to ensure productive use of technology?",
-      answer: "Setting clear goals and deadlines",
+      question: "Which block type in Scratch can store and update values during program execution?",
+      answer: "Variable blocks",
       options: [
-        "Using technology without a plan",
-        "Setting clear goals and deadlines",
-        "Avoiding collaboration",
-        "Focusing only on individual tasks"
+        "Look blocks",
+        "Motion blocks",
+        "Variable blocks",
+        "Sound blocks"
       ]
     },
     {
       numb: 9,
-      question: "How can social media contribute to the collaboration of ideas?",
-      answer: "By allowing users to share and discuss diverse perspectives",
+      question: "What does the Boolean operator 'OR' do?",
+      answer: "Returns true if at least one condition is true",
       options: [
-        "By limiting discussions to specific topics",
-        "By allowing users to share and discuss diverse perspectives",
-        "By promoting only popular opinions",
-        "By restricting access to certain users"
+        "Returns true only if both conditions are true",
+        "Returns true if at least one condition is true",
+        "Always returns false",
+        "Negates a condition"
       ]
     },
     {
       numb: 10,
-      question: "What is a key advantage of using cloud-based tools for collaboration?",
-      answer: "They allow access to documents from anywhere with an internet connection",
+      question: "What is the purpose of using procedures or custom blocks?",
+      answer: "To reuse a set of instructions multiple times",
       options: [
-        "They require installation on every device",
-        "They allow access to documents from anywhere with an internet connection",
-        "They limit sharing to local networks",
-        "They are only available on specific devices"
+        "To change the background",
+        "To store values",
+        "To reuse a set of instructions multiple times",
+        "To stop the program"
       ]
     }
   ];
-  
   export { questions };
   
   

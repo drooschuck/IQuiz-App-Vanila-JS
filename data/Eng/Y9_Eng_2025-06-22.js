@@ -1,118 +1,116 @@
-export let quizSubject = "PT2 - A View from the Bridge";
+export let quizSubject = "PT3 - The Poet X";
 
 let questions = [
     {
         numb: 1,
-        question: "What is the primary setting of 'A View from the Bridge'?",
-        answer: "An Italian-American neighborhood in Brooklyn",
+        question: "What is a key characteristic of free verse poetry?",
+        answer: "It does not adhere to a specific rhyme scheme or meter.",
         options: [
-            "An Italian-American neighborhood in Brooklyn",
-            "A rural town in Italy",
-            "London during the 1950s",
-            "A courthouse in Manhattan"
+            "It follows a strict rhyme scheme.",
+            "It uses a consistent meter throughout.",
+            "It does not adhere to a specific rhyme scheme or meter.",
+            "It is always written in stanzas of four lines."
         ]
     },
     {
         numb: 2,
-        question: "What is Eddie Carbone's main internal conflict?",
-        answer: "His forbidden feelings for Catherine",
+        question: "How does Xiomara's use of free verse reflect her personal struggles?",
+        answer: "It allows her to express her emotions authentically and without constraints.",
         options: [
-            "His struggle to find work",
-            "His forbidden feelings for Catherine",
-            "His loyalty to Marco",
-            "His fear of immigration authorities"
+            "It makes her poetry less impactful.",
+            "It allows her to express her emotions authentically and without constraints.",
+            "It limits her ability to convey her thoughts.",
+            "It focuses solely on rhyme and rhythm."
         ]
     },
     {
         numb: 3,
-        question: "Why does Arthur Miller include the character Alfieri?",
-        answer: "To act as a chorus and narrator providing legal and moral commentary",
+        question: "Which poetic method does Xiomara frequently use to convey her feelings?",
+        answer: "Imagery",
         options: [
-            "To provide comic relief",
-            "To act as a chorus and narrator providing legal and moral commentary",
-            "To create romantic tension",
-            "To represent the Italian community's voice"
+            "Alliteration",
+            "Imagery",
+            "Personification",
+            "Simile"
         ]
     },
     {
         numb: 4,
-        question: "How does Miller use the structure of the play to build tension?",
-        answer: "By gradually increasing conflicts leading to a tragic climax",
+        question: "What effect does the use of repetition have in Xiomara's poetry?",
+        answer: "It emphasizes her emotions and key themes.",
         options: [
-            "By starting with the climax and then explaining the background",
-            "By gradually increasing conflicts leading to a tragic climax",
-            "By dividing the play into unrelated scenes",
-            "By ending with a comedic resolution"
+            "It makes the poem longer.",
+            "It emphasizes her emotions and key themes.",
+            "It confuses the reader.",
+            "It serves no significant purpose."
         ]
     },
     {
         numb: 5,
-        question: "What effect does Miller achieve by using formal legal language through Alfieri?",
-        answer: "It emphasizes the conflict between human emotions and the law",
+        question: "How does the structure of Xiomara's poems contribute to their meaning?",
+        answer: "The varied line lengths reflect her emotional state and the chaos in her life.",
         options: [
-            "It makes the play easier to understand",
-            "It emphasizes the conflict between human emotions and the law",
-            "It shows the limitations of the justice system",
-            "It confuses the audience"
+            "The structure is irrelevant to the meaning.",
+            "The varied line lengths reflect her emotional state and the chaos in her life.",
+            "All poems must have the same structure.",
+            "The structure is always consistent."
         ]
     },
     {
         numb: 6,
-        question: "What can be inferred about Eddie’s personality from his protective behavior toward Catherine?",
-        answer: "He struggles with possessiveness disguised as care",
+        question: "What is one benefit of writing poetry in free verse as demonstrated in 'The Poet X'?",
+        answer: "It allows for greater freedom of expression.",
         options: [
-            "He is very generous and selfless",
-            "He struggles with possessiveness disguised as care",
-            "He wants Catherine to be independent",
-            "He dislikes Catherine’s friends"
+            "It restricts creativity.",
+            "It allows for greater freedom of expression.",
+            "It requires strict adherence to form.",
+            "It is less personal than structured poetry."
         ]
     },
     {
         numb: 7,
-        question: "What does the title 'A View from the Bridge' symbolize?",
-        answer: "The perspective of an observer caught between two cultures",
+        question: "Which theme is prominently explored through Xiomara's poetry?",
+        answer: "Identity and self-acceptance",
         options: [
-            "Literal view from a bridge in Brooklyn",
-            "The perspective of an observer caught between two cultures",
-            "A bridge that connects the characters literally",
-            "A metaphor for economic success"
+            "Adventure and exploration",
+            "Identity and self-acceptance",
+            "Historical events",
+            "Nature and the environment"
         ]
     },
     {
         numb: 8,
-        question: "How does Miller’s choice of direct, everyday language affect the play?",
-        answer: "It makes the characters’ emotions accessible and realistic",
+        question: "What role does performance play in Xiomara's poetry?",
+        answer: "It brings her words to life and connects her with her audience.",
         options: [
-            "It distances the audience from the characters",
-            "It makes the characters’ emotions accessible and realistic",
-            "It adds a poetic and abstract quality",
-            "It causes confusion about the setting"
+            "It is not important.",
+            "It brings her words to life and connects her with her audience.",
+            "It distracts from the written word.",
+            "It is only for entertainment."
         ]
     },
     {
         numb: 9,
-        question: "What is the significance of the immigration theme in the play?",
-        answer: "It highlights issues of identity and belonging",
+        question: "How can readers create their own performance poetry inspired by 'The Poet X'?",
+        answer: "By exploring their own emotions and experiences through free verse.",
         options: [
-            "It is only a background detail",
-            "It serves as comic relief",
-            "It highlights issues of identity and belonging",
-            "It represents the future economic prosperity"
+            "By copying Xiomara's style exactly.",
+            "By exploring their own emotions and experiences through free verse.",
+            "By using only traditional forms.",
+            "By avoiding personal themes."
         ]
     },
     {
         numb: 10,
-        question: "How does Miller's portrayal of masculinity contribute to the tragedy?",
-        answer: "By showing how pride and honor lead to destructive decisions",
+        question: "What is the significance of the title 'The Poet X'?",
+        answer: "It represents Xiomara's identity as a poet and her unique voice.",
         options: [
-            "It portrays men as always heroic",
-            "It shows how pride and honor lead to destructive decisions",
-            "It ignores masculinity as a theme",
-            "It praises traditional family values unconditionally"
+            "It refers to a mathematical concept.",
+            "It represents Xiomara's identity as a poet and her unique voice.",
+            "It is a random title.",
+            "It signifies a group of poets."
         ]
     }
 ]
 
 export { questions };
-
-

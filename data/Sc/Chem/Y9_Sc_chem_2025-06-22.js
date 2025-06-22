@@ -1,114 +1,114 @@
-export const quizSubject = "Chem5 - Trans & skills";
+export const quizSubject = "Chem3 - New Tech ";
 
 let questions = [
     {
         numb: 1,
-        question: "What are the three main types of subatomic particles?",
-        answer: "Protons, neutrons, and electrons.",
+        question: "What are nanoparticles?",
+        answer: "Particles that are between 1 and 100 nanometers in size.",
         options: [
-            "Protons, neutrons, and isotopes.",
-            "Protons, neutrons, and electrons.",
-            "Electrons, positrons, and neutrons.",
-            "Atoms, molecules, and ions."
+            "Particles that are larger than 100 micrometers.",
+            "Particles that are between 1 and 100 nanometers in size.",
+            "Particles that are visible to the naked eye.",
+            "Particles that are only found in gases."
         ]
     },
     {
         numb: 2,
-        question: "Where are electrons located in an atom?",
-        answer: "In the electron cloud surrounding the nucleus.",
+        question: "Which of the following is a property of nanoparticles?",
+        answer: "High surface area to volume ratio.",
         options: [
-            "In the nucleus.",
-            "In the electron cloud surrounding the nucleus.",
-            "In the protons.",
-            "In the neutrons."
+            "Low reactivity.",
+            "High surface area to volume ratio.",
+            "High density.",
+            "Large size."
         ]
     },
     {
         numb: 3,
-        question: "How are ions formed?",
-        answer: "By gaining or losing electrons.",
+        question: "How do the properties of nanoparticles make them suitable for drug delivery?",
+        answer: "They can easily penetrate cells due to their small size.",
         options: [
-            "By gaining or losing protons.",
-            "By gaining or losing neutrons.",
-            "By gaining or losing electrons.",
-            "By combining with other atoms."
+            "They are too large to enter cells.",
+            "They can easily penetrate cells due to their small size.",
+            "They are highly reactive.",
+            "They are only effective in solid form."
         ]
     },
     {
         numb: 4,
-        question: "What is the correct symbol equation for the reaction of sodium and chlorine to form sodium chloride?",
-        answer: "2Na + Cl₂ → 2NaCl",
+        question: "What gases are produced during combustion reactions in car engines?",
+        answer: "Carbon dioxide, water vapor, and nitrogen oxides.",
         options: [
-            "Na + Cl → NaCl",
-            "2Na + Cl₂ → 2NaCl",
-            "Na + 2Cl → NaCl₂",
-            "2Na + Cl → NaCl"
+            "Oxygen and hydrogen.",
+            "Carbon dioxide, water vapor, and nitrogen oxides.",
+            "Methane and sulfur dioxide.",
+            "Only carbon monoxide."
         ]
     },
     {
         numb: 5,
-        question: "What is the balanced equation for the combustion of methane (CH₄)?",
-        answer: "CH₄ + 2O₂ → CO₂ + 2H₂O",
+        question: "What is one advantage of using cars?",
+        answer: "Convenience and flexibility of travel.",
         options: [
-            "CH₄ + O₂ → CO₂ + H₂O",
-            "CH₄ + 2O₂ → CO₂ + 2H₂O",
-            "CH₄ + 2O₂ → CO + 2H₂O",
-            "CH₄ + O₂ → C + 2H₂O"
+            "They are environmentally friendly.",
+            "Convenience and flexibility of travel.",
+            "They are always cheaper than public transport.",
+            "They require no maintenance."
         ]
     },
     {
         numb: 6,
-        question: "What are the different types of data in chemistry?",
-        answer: "Qualitative and quantitative data.",
+        question: "What are greenhouse gases?",
+        answer: "Gases that trap heat in the atmosphere.",
         options: [
-            "Experimental and theoretical data.",
-            "Qualitative and quantitative data.",
-            "Primary and secondary data.",
-            "Numerical and graphical data."
+            "Gases that cool the atmosphere.",
+            "Gases that trap heat in the atmosphere.",
+            "Gases that are only produced by plants.",
+            "Gases that are harmless to the environment."
         ]
     },
     {
         numb: 7,
-        question: "Which type of graph is best for showing the relationship between two continuous variables?",
-        answer: "Line graph.",
+        question: "What is the greenhouse effect?",
+        answer: "The warming of the Earth's surface due to trapped heat.",
         options: [
-            "Bar graph.",
-            "Pie chart.",
-            "Line graph.",
-            "Histogram."
+            "The cooling of the Earth's surface.",
+            "The warming of the Earth's surface due to trapped heat.",
+            "The increase in ozone layer thickness.",
+            "The reduction of carbon dioxide levels."
         ]
     },
     {
         numb: 8,
-        question: "What is the first step in analyzing a graph?",
-        answer: "Identify the variables on the axes.",
+        question: "What is one impact of greenhouse gas emissions?",
+        answer: "Increased global temperatures.",
         options: [
-            "Draw conclusions.",
-            "Identify the variables on the axes.",
-            "Calculate the slope.",
-            "Determine the type of graph."
+            "Decreased ocean levels.",
+            "Increased global temperatures.",
+            "Improved air quality.",
+            "Reduced biodiversity."
         ]
     },
     {
         numb: 9,
-        question: "What should you do after analyzing data?",
-        answer: "Draw conclusions based on the analysis.",
+        question: "What is one piece of evidence for global warming?",
+        answer: "Rising sea levels.",
         options: [
-            "Ignore the data.",
-            "Draw conclusions based on the analysis.",
-            "Recollect the data.",
-            "Change the data."
+            "Increased snowfall in polar regions.",
+            "Rising sea levels.",
+            "Decreased temperatures in the tropics.",
+            "More frequent snowstorms."
         ]
     },
     {
         numb: 10,
-        question: "What is an important aspect of evaluating data?",
-        answer: "Assessing the reliability and validity of the data.",
+        question: "What is one advantage of hydrogen fuel cells?",
+        answer: "They produce only water as a byproduct.",
         options: [
-            "Ignoring outliers.",
-            "Assessing the reliability and validity of the data.",
-            "Only considering the average.",
-            "Focusing on the highest values."
+            "They are very cheap to produce.",
+            "They produce only water as a byproduct.",
+            "They require fossil fuels to operate.",
+            "They are less efficient than batteries."
         ]
     }
 ];
