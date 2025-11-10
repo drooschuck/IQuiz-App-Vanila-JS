@@ -22,7 +22,7 @@ function addDays(date, days) {
     return result;
 }
 
-// Format date as YYYY-MM-DD
+// Format date as YYYY-MM-DD 
 function formatDate(date) {
     return date.toISOString().slice(0, 10);
 }
